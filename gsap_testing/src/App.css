@@ -1,0 +1,20 @@
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to right, #4caf50, #81c784);
+  border-radius: 12px;
+}
